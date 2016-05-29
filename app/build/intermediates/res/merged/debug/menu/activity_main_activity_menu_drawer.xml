@@ -3,33 +3,29 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_gestion"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Gestionar Estacion" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_entradas"
+            android:icon="@drawable/ic_format_indent_increase_black_24dp"
+            android:title="Consultar Entradas" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_servidor"
+            android:icon="@drawable/ic_router_black_24dp"
+            android:title="Estado Servidor" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_delay"
+            android:icon="@drawable/ic_cloud_upload_black_24dp"
+            android:title="Entregas con Demora" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Calibracion">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_calibrar"
+                android:icon="@drawable/ic_build_black_24dp"
+                android:title="Calibrar" />
         </menu>
     </item>
 

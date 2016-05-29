@@ -48,12 +48,12 @@
         "source": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/res/merged/debug/layout/app_bar_main_activity_menu.xml",
-        "source": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/src/main/res/layout/app_bar_main_activity_menu.xml"
-    },
-    {
         "merged": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/res/merged/debug/layout/app_bar_main_activity_menu.xml",
+        "source": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/src/main/res/layout/app_bar_main_activity_menu.xml"
     },
     {
         "merged": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",

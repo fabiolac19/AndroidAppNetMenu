@@ -2,9 +2,5 @@
     {
         "merged": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/res/merged/debug/menu/activity_main_activity_menu_drawer.xml",
         "source": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/src/main/res/menu/activity_main_activity_menu_drawer.xml"
-    },
-    {
-        "merged": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/res/merged/debug/menu/main_activity_menu.xml",
-        "source": "/home/fabiola/AndroidStudioProjects/MenuNetlog/app/src/main/res/menu/main_activity_menu.xml"
     }
 ]

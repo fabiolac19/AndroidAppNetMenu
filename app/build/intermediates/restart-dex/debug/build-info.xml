@@ -4,29 +4,34 @@
     api-level="21"
     density="hdpi"
     format="7"
-    timestamp="6548533242022" >
+    timestamp="16790984164281" >
 
     <task
         name="javac"
-        duration="1742" />
+        duration="103" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="288" />
+        duration="19" />
     <task
         name="verifier"
-        duration="10" />
+        duration="2" />
 
     <artifact
-        location="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
 
-    <build timestamp="6548533242022" >
+    <build timestamp="16572504124947" >
         <artifact
             location="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="16790984164281" >
+        <artifact
+            location="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
