@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="568d1906f55d806881c22bbca138aa336d470c9e">
+        <dex dex="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0c3572affd908ce2f07691f044580b020e93c211/classes.dex" />
+    </item>
+    <item
+        jar="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_33603a29ea9a2ac37ca3bc8b11128feb96cb81fb/classes.dex" />
+    </item>
+    <item
+        jar="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_a5dbe3056884c92c305b88b867aa67e85dfa8afe/classes.dex" />
+    </item>
+    <item
+        jar="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_1d649d89cad2ee0b5fe3d9e7332605a1acca94d7/classes.dex" />
+    </item>
+    <item
+        jar="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_c311da27ed12771f8ae7bfa2667eaecb90e23793/classes.dex" />
+    </item>
+    <item
+        jar="/home/fabiola/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_87a8cc6560d83b5f7db8ec8e7dfa31abb088df60/classes.dex" />
+    </item>
+    <item
+        jar="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_413389451057f363df75b2720bbcdb385c54f565/classes.dex" />
+    </item>
+    <item
+        jar="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_98384aaba8a8edafc39b2fb2a44b35052aa83969/classes.dex" />
+    </item>
+    <item
+        jar="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b869ca0dc95e36312c7bc39e8954dec9d0ebb94">
+        <dex dex="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_476df95857a2c8f53325173624f8184d6dd5f195/classes.dex" />
+    </item>
+    <item
+        jar="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/home/fabiola/AndroidStudioProjects/MenuNetlog/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_76dbb4d44673bea947e815053ec2b3cdf4010276/classes.dex" />
+    </item>
+
+</items>
