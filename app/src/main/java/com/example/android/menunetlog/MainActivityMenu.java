@@ -61,13 +61,16 @@ public class MainActivityMenu extends AppCompatActivity
         if (id == R.id.nav_gestion) {
             fragment = new HomeFragment();
         } else if (id == R.id.nav_entradas) {
-            fragment = new PagesFragment();
+            fragment = new Home();
         } else if (id == R.id.nav_servidor) {
-
+            fragment = new Home();
         } else if (id == R.id.nav_delay) {
-
+            fragment = new Home();
         } else if (id == R.id.nav_calibrar) {
-
+            fragment = new CalibracionGeometrica();
+        }
+        else if (id == R.id.nav_calibrar_lineal) {
+            fragment = new CalibracionLineal();
         }
         if (fragment != null) {
             FragmentManager fragmentManager = getFragmentManager();

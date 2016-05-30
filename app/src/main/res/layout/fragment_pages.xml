@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
+        <TextView
+            android:id="@+id/texto0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Geometria"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"/>
         <RelativeLayout
+            android:padding="10dp"
             android:id="@+id/relative0"
+            android:layout_below="@id/texto0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#e0e0e0"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp">
@@ -33,6 +46,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="50"
+                    android:gravity="center"
                     />
             </LinearLayout>
             <LinearLayout
@@ -55,6 +69,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="50"
+                    android:gravity="center"
                     />
             </LinearLayout>
             <LinearLayout
@@ -77,6 +92,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="30"
+                    android:gravity="center"
                     />
                 <Button
                     android:layout_width="0dp"
@@ -104,6 +120,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="50"
+                    android:gravity="center"
                     />
             </LinearLayout>
             <LinearLayout
@@ -125,6 +142,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="30"
+                    android:gravity="center"
                     />
                 <Button
                     android:layout_width="0dp"
@@ -134,12 +152,25 @@
                     android:text="Enviar Geometria"/>
             </LinearLayout>
         </RelativeLayout>
+        <TextView
+            android:id="@+id/texto00"
+            android:layout_below="@id/relative0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Ajuste"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"/>
         <RelativeLayout
             android:id="@+id/relative1"
-            android:layout_below="@id/relative0"
+            android:padding="10dp"
+            android:layout_below="@id/texto00"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#e0e0e0"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp">
@@ -161,6 +192,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="50"
+                    android:gravity="center"
                     />
             </LinearLayout>
             <LinearLayout
@@ -183,6 +215,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="50"
+                    android:gravity="center"
                     />
             </LinearLayout>
             <LinearLayout
@@ -205,6 +238,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="30"
+                    android:gravity="center"
                     />
                 <Button
                     android:layout_width="0dp"
@@ -232,6 +266,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="50"
+                    android:gravity="center"
                     />
                 <Button
                     android:layout_width="0dp"

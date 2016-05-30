@@ -25,7 +25,11 @@
             <item
                 android:id="@+id/nav_calibrar"
                 android:icon="@drawable/ic_build_black_24dp"
-                android:title="Calibrar" />
+                android:title="Geometrica" />
+            <item
+                android:id="@+id/nav_calibrar_lineal"
+                android:icon="@drawable/ic_build_black_24dp"
+                android:title="Lineal" />
         </menu>
     </item>
 
