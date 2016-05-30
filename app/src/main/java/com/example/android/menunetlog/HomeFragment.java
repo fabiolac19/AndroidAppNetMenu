@@ -34,37 +34,33 @@ public class HomeFragment extends ListFragment {
 
     private JSONArray jsonArray;
     List<String> values;
-
+    @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        values = new ArrayList<>();
-        values.add(0,"pepe");
 
-        String url = "http://api.androidhive.info/contacts/";
-        json(url,"contacts");
+        values = new ArrayList<>();
+        values.add(0,"");
+
+        //String url = "http://api.androidhive.info/contacts/";
+        //json(url,"contacts");
+        String url = "http://192.168.0.100:5000/eljason";
+        json(url,"Terminal");
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 R.layout.support_simple_spinner_dropdown_item, values);
         setListAdapter(adapter);
         if (savedInstanceState != null) {
             mCounter = savedInstanceState.getInt(STATE_COUNTER, 0);
         }
+        super.onCreate(savedInstanceState);
     }
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-                ((MainActivityMenu) getActivity()).setActionBarTitle("Gestionar Estacion");
+        ((MainActivityMenu) getActivity()).setActionBarTitle("Gestionar Estacion");
         return view;
     }
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-//        values = new ArrayList<>();
-//        values.add(0,"pepe");
-//
-//        String url = "http://api.androidhive.info/contacts/";
-//        json(url,"contacts");
-//        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-//                R.layout.support_simple_spinner_dropdown_item, values);
-//        setListAdapter(adapter);
     }
     @Override
     public void onViewStateRestored(Bundle savedInstanceState) {
@@ -72,18 +68,21 @@ public class HomeFragment extends ListFragment {
     }
     @Override
     public void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
         values = new ArrayList<>();
-        values.add(0,"pepe");
+      //  values.add(0,"pepe");
 
-        String url = "http://api.androidhive.info/contacts/";
-        json(url,"contacts");
+        //String url = "http://api.androidhive.info/contacts/";
+        String url = "http://192.168.0.100:5000/eljason";
+        //json(url,"contacts");
+        json(url,"Terminal");
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                R.layout.support_simple_spinner_dropdown_item, values);
+                R.layout.fragment_home, values);
         setListAdapter(adapter);
         outState.putInt(STATE_COUNTER, mCounter);
         outState.putSerializable(STATE_ITEMS, mItems);
+        super.onSaveInstanceState(outState);
     }
+
     private void json(String url, final String nombre)
     {
         RequestQueue queue = Volley.newRequestQueue(getActivity());
@@ -118,25 +117,35 @@ public class HomeFragment extends ListFragment {
 
     private void leerJson()
     {
+//        String[] contacs = {
+//                "id",
+//                "name",
+//                "email"
+//        };
         String[] contacs = {
-                "id",
+                "idTerminal",
                 "name",
-                "email",
-                "address"
+                "ip_address"
         };
+
         for (int i=0; i< jsonArray.length(); i++){
             JSONObject jsonRow = null;
             try {
                 jsonRow = jsonArray.getJSONObject(i);
-                for (int j = 0; j < contacs.length; j++ ){
-                    String resultStr = null;
-                    try {
-                        resultStr = jsonRow.getString(contacs[j]);
-                        if (j ==  1) {values.add(i,resultStr);}
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-                }
+                String resultStr = null;
+                resultStr = jsonRow.getString(contacs[0]) + "           " + jsonRow.getString(contacs[1]) + "              " + jsonRow.getString(contacs[2]);
+
+                values.add(i,resultStr);
+//                for (int j = 0; j < contacs.length; j++ ){
+//                    //String resultStr = null;
+//                    try {
+//                        resultStr = jsonRow.getString(contacs[j]);
+//                        //if (j ==  1) {values.add(i,resultStr);}
+//                        values.add(i,resultStr);
+//                    } catch (JSONException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
             } catch (JSONException e) {
                 e.printStackTrace();
             }
