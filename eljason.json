@@ -1,0 +1,22 @@
+{
+  "Terminal": [
+    {
+      "flag_status": 1, 
+      "idTerminal": 3, 
+      "ip_address": "192.168.0.1", 
+      "isServer": 1, 
+      "name": "ServerA", 
+      "points": 0, 
+      "port": 80
+    }, 
+    {
+      "flag_status": 0, 
+      "idTerminal": 4, 
+      "ip_address": "192.168.1.1", 
+      "isServer": 1, 
+      "name": "ServerB", 
+      "points": 78, 
+      "port": 80
+    }
+  ]
+}
